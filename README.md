@@ -1,4 +1,4 @@
-# Doctor-s-Appointment-Management-System
+# Doctors-Appointment-Management-System
 
 MERN stack doctor appointment system with patient, doctor, and admin roles.
   1. Frontend: React 18 (Create React App) on http://localhost:3000
