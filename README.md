@@ -33,8 +33,6 @@ cd backend
 npm install
 ```
 
-Edit `backend/.env` and set `MONGO_URI` and `SESSION_SECRET`.
-
 ```bash
 npm run seed
 npm start
