@@ -31,7 +31,6 @@ MERN stack doctor appointment system with patient, doctor, and admin roles.
 ```bash
 cd backend
 npm install
-copy .env.example .env
 ```
 
 Edit `backend/.env` and set `MONGO_URI` and `SESSION_SECRET`.
