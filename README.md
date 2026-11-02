@@ -8,15 +8,15 @@ MERN stack doctor appointment system with patient, doctor, and admin roles.
 ## Features:
 1. New Patient registration and login.
 2. Doctor registration and login.
-4. Appointment booking with available-day and time-slot.
-5. Appointment status flow: pending, approved, rejected, completed, cancelled.
-6. Doctor and patient appointment views with status filters.
-7. In-app notifications with deep links to the matching appointment filter.
-8. Admin dashboard for overall sytem view.
-9. Doctor Dashboard for doctors appointments list and approving/cancellation appointments.
-10. Doctor Dashboard for payment status of the appontment.
-11. A chat-bot feature for patients to choose the right doctor and their appointment.
-12. Demo payment page with payment status notification.
+3. Appointment booking with available-day and time-slot.
+4. Appointment status flow: pending, approved, rejected, completed, cancelled.
+5. Doctor and patient appointment views with status filters.
+6. In-app notifications with deep links to the matching appointment filter.
+7. Admin dashboard for overall system view.
+8. Doctor Dashboard for doctor's scheduled appointments list and approving/cancellation appointments option by doctor.
+9. Doctor Dashboard for payment status of the appontment.
+10. A chat-bot feature for patients to choose the right doctor and their appointment as per their illness.
+11. Demo payment page with payment status notification.
 
 
 ## Requirements
@@ -57,6 +57,13 @@ Frontend runs on http://localhost:3000.
 | Role  | Email                  | Password |
 |-------|------------------------|----------|
 | Admin | admin@doctorapp.com    | admin123 |
-| Demo user| user@doctorapp.com  | user123 |
+| Demo user | user@doctorapp.com  | user123 |
 
-Doctors and patients can be registered from the app.
+## Project Structure
+```bash
+
+```
+
+```bash 
+Doctors and patients can registered from the app. 
+```
