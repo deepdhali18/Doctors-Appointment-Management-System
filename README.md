@@ -54,13 +54,108 @@ Frontend runs on http://localhost:3000.
 
 ## Seed accounts
 
-| Role  | Email                  | Password |
-|-------|------------------------|----------|
-| Admin | admin@doctorapp.com    | admin123 |
-| Demo user | user@doctorapp.com  | user123 |
+| Role       | Specialization       | Email                  | Password  |
+|------------|----------------------|------------------------|-----------|
+| Admin      | -                    | admin@doctorapp.com    | admin123  |
+| Demo User  | -                    | user@doctorapp.com     | user123   |
+| Demo Doctor     | General Physician    | amit@doctorapp.com     | amit123   |
+| Demo Doctor     | Dermatologist        | priya@doctorapp.com    | priya123  |
+| Demo Doctor     | Cardiologist         | rahul@doctorapp.com    | rahul123  |
+| Demo Doctor    | Gastroenterologist   | ananya@doctorapp.com   | ananya123 |
+| Demo Doctor     | Pediatrician         | sourav@doctorapp.com   | sourav123 |
 
 ## Project Structure
 ```bash
+
+
+doctor-app-chatbot/
+│
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   │
+│   ├── controllers/
+│   │   ├── analyticsController.js
+│   │   ├── applicationController.js
+│   │   ├── appointmentController.js
+│   │   ├── authController.js
+│   │   ├── chatbotController.js
+│   │   ├── doctorController.js
+│   │   ├── paymentController.js
+│   │   └── userController.js
+│   │
+│   ├── middleware/
+│   │   └── auth.js
+│   │
+│   ├── models/
+│   │   ├── Appointment.js
+│   │   ├── Doctor.js
+│   │   ├── Notification.js
+│   │   ├── payment.js
+│   │   └── User.js
+│   │
+│   ├── routes/
+│   │   ├── analytics.js
+│   │   ├── applications.js
+│   │   ├── appointments.js
+│   │   ├── auth.js
+│   │   ├── chatbot.js
+│   │   ├── doctors.js
+│   │   ├── notifications.js
+│   │   ├── payments.js
+│   │   └── users.js
+│   │
+│   ├── config/
+│   │
+│   ├── .env.example
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── seedAdmin.js
+│   └── server.js
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Chatbot.js
+│   │   │   ├── DoctorCalendar.js
+│   │   │   ├── Navbar.js
+│   │   │   ├── NotificationBell.js
+│   │   │   ├── Pagination.js
+│   │   │   └── ProtectedRoute.js
+│   │   │
+│   │   ├── context/
+│   │   │   └── AuthContext.js
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── AdminDashboard.js
+│   │   │   ├── ApplyDoctor.js
+│   │   │   ├── Appointments.js
+│   │   │   ├── demopayment.js
+│   │   │   ├── Doctors.js
+│   │   │   ├── ForgotPassword.js
+│   │   │   ├── Home.js
+│   │   │   ├── Login.js
+│   │   │   ├── paymentresult.js
+│   │   │   ├── Profile.js
+│   │   │   └── Register.js
+│   │   │
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   │
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   └── index.js
+│   │
+│   ├── package.json
+│   └── package-lock.json
+│
+├── package-lock.json
+├── .gitignore                
+
+
 
 ```
 
